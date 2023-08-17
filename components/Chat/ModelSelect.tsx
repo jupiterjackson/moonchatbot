@@ -1,4 +1,4 @@
-import { IconExternalLink } from '@tabler/icons-react';
+// import { IconExternalLink } from '@tabler/icons-react';
 import { useContext } from 'react';
 
 import { useTranslation } from 'next-i18next';
@@ -57,8 +57,8 @@ export const ModelSelect = () => {
           target="_blank"
           className="flex items-center"
         >
-          <IconExternalLink size={18} className={'inline mr-1'} />
-          {t('View Account Usage')}
+          {/* <IconExternalLink size={18} className={'inline mr-1'} />
+          {t('View Account Usage')} */}
         </a>
       </div>
     </div>
